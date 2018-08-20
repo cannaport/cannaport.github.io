@@ -25,79 +25,73 @@
 				<p>By Cannaport</p>
 			</header>
 
-			<!--<hr /> -->
 
 			<!-- Tab Selectors -->
 			<div class="tab">
-				<button class="tablinks" onclick="(event, 'Manage Products')">Manage Products</button>
-				<button class="tablinks" onclick="openCity(event, 'Manage Inventory')">Manage Inventory</button>
-						  <!--
-						  <button class="tablinks" onclick="openCity(event, 'Inventory Type')">Tokyo</button><button class="tablinks" onclick="openCity(event, 'Disposal')">Tokyo</button>
-						  <button class="tablinks" onclick="openCity(event, 'Inventory')">Tokyo</button>
-						  <button class="tablinks" onclick="openCity(event, 'Inventory Adjustment')">Tokyo</button>
-						-->						  						
+				<button class="tablinks" onclick="test(event, 'Manage Products')">Manage Products</button>
+				<button class="tablinks" onclick="UserAction()">Manage Inventory</button>
+
+			</div>
+
+			<div id="Manage Products" class="tabcontent">
+				<div class="tab">
+					<button class="tablinks" onclick="test(event, 'test')">London</button>
+					<button class="tablinks" onclick="test(event, 'test')">Paris</button>
+					<button class="tablinks" onclick="test(event, 'test')">Tokyo</button>
+				</div>						
+			</div>
+
+			<div id="" class="tabcontent">
+
+			</div>
+
+			<h2>Form Here</h2>
+			<form method="post" action="#">
+				<div class="fields">
+					<div class="field">
+						<input type="text" name="name" id="name" placeholder="Name" />
+					</div>
+					<div class="field">
+						<input type="email" name="email" id="email" placeholder="Email" />
+					</div>
+					<div class="field">
+						<input type="text" name="" id="email" placeholder="Email" />
+					</div>
+					<div class="field">
+						<input type="email" name="email" id="email" placeholder="Email" />
 					</div>
 
-					<div id="Manage Products" class="tabcontent">
-						curl 
-					</div>
-
-					<div id="London" class="tabcontent">
-						<div class="tab">
-							<button class="tablinks" onclick="openCity(event, 'London')">London</button>
-							<button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-							<button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-						</div>
-
-					</div>
-					<h2>Form Here</h2>
-					<form method="post" action="#">
-						<div class="fields">
-							<div class="field">
-								<input type="text" name="name" id="name" placeholder="Name" />
-							</div>
-							<div class="field">
-								<input type="email" name="email" id="email" placeholder="Email" />
-							</div>
-							<div class="field">
-								<input type="text" name="" id="email" placeholder="Email" />
-							</div>
-							<div class="field">
-								<input type="email" name="email" id="email" placeholder="Email" />
-							</div>
+				</div>
 
 
-						</div>
-					</div>
+			</form>
+			<ul style="list-style-type:square">
+					<button class="tablinks" onclick="UserAction()"> Call API </button>
+			</ul>
 
-				
-					<ul class="actions special">
-						<button onclick="UserAction()"> Call API </button>
-					</ul>
-				</form>
 
 			<!--<hr /> -->
 
-			</section>
+		</section>
 
-			<!-- Footer -->
-			<footer id="footer">
-				<ul class="copyright">
-					<li>&copy; Donald Kwan</li>
-				</ul>
-			</footer>
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="copyright">
+				<li>&copy; Donald Kwan</li>
+			</ul>
+		</footer>
 
-		</div>
+	</div>
 
-		<!-- Scripts -->
-		<script>
-			if ('addEventListener' in window) {
-				window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
-				document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-			}
-		</script>
+	<!-- Scripts -->
+	<script>
+		if ('addEventListener' in window) {
+			window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });	
+			document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+		}
+	</script>
 
 
-	</body>
-	</html>
+</body>
+</html>
 
