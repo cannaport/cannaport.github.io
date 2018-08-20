@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+
+<script src="script.js"></script>
+
+<html>
+<head>
+	<title>Cannaport</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<section id="main">
+			<header>
+				<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+				<h1>LEAF Systems Interfacer</h1>
+				<p>By Cannaport</p>
+			</header>
+
+			<!--<hr /> -->
+
+			<!-- Tab Selectors -->
+			<div class="tab">
+				<button class="tablinks" onclick="(event, 'Manage Products')">Manage Products</button>
+				<button class="tablinks" onclick="openCity(event, 'Manage Inventory')">Manage Inventory</button>
+						  <!--
+						  <button class="tablinks" onclick="openCity(event, 'Inventory Type')">Tokyo</button><button class="tablinks" onclick="openCity(event, 'Disposal')">Tokyo</button>
+						  <button class="tablinks" onclick="openCity(event, 'Inventory')">Tokyo</button>
+						  <button class="tablinks" onclick="openCity(event, 'Inventory Adjustment')">Tokyo</button>
+						-->						  						
+					</div>
+
+					<div id="Manage Products" class="tabcontent">
+						curl 
+					</div>
+
+					<div id="London" class="tabcontent">
+						<div class="tab">
+							<button class="tablinks" onclick="openCity(event, 'London')">London</button>
+							<button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+							<button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+						</div>
+
+					</div>
+					<h2>Form Here</h2>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="field">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<input type="text" name="" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+
+
+						</div>
+					</div>
+
+				
+					<ul class="actions special">
+						<button onclick="UserAction()"> Call API </button>
+					</ul>
+				</form>
+
+			<!--<hr /> -->
+
+			</section>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="copyright">
+					<li>&copy; Donald Kwan</li>
+				</ul>
+			</footer>
+
+		</div>
+
+		<!-- Scripts -->
+		<script>
+			if ('addEventListener' in window) {
+				window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+				document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+			}
+		</script>
+
+
+	</body>
+	</html>
+
